@@ -9,7 +9,7 @@ const routes = require("./routes");
 const app = express();
 app.use(
   cors({
-    origin: "*", // TEMPORARY — only during deployment
+    origin: "https://content-moderator-ui.vercel.app",
     credentials: true,
   })
 );
